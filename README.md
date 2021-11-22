@@ -16,17 +16,17 @@ s
 1拉源码
 国内
 ```
-git clone https://ghproxy.com/https://github.com/NolanHzy/nvjdcdocker.git /root/nolanjdc
+git clone https://ghproxy.com/https://github.com/1767332988/nvjdcdocker.git /root/nolanjdc
 ```
 国外
 ```
-git clone https://github.com/NolanHzy/nvjdcdocker.git /root/nolanjdc
+git clone https://github.com/1767332988/nvjdcdocker.git /root/nolanjdc
 ```
 
 
 2 拉取基础镜像
 ```
-sudo docker pull nolanhzy/nvjdc:latest
+sudo docker pull 1767332988/nvjdc:latest
 ```
 
 3 执行命令
@@ -68,7 +68,7 @@ cd  /root/nolanjdc
 ```
 sudo docker run   --name nolanjdc -p 5701:80 -d  -v  "$(pwd)":/app \
 -v /etc/localtime:/etc/localtime:ro \
--it --privileged=true  nolanhzy/nvjdc:latest
+-it --privileged=true  1767332988/nvjdc:latest
 ```
 
 10查看 日志 
