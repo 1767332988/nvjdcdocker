@@ -26,7 +26,7 @@ git clone https://github.com/1767332988/nvjdcdocker.git /root/nolanjdc
 
 2 拉取基础镜像
 ```
-sudo docker pull 1767332988/nvjdc:latest
+sudo docker pull 1767332988/nvjdc:1.4
 ```
 
 3 执行命令
