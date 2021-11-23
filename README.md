@@ -81,7 +81,10 @@ docker logs -f nolanjdc
 
 出现 NETJDC  started 即可 
 之后在浏览器输入你的ip：5701打开即可
-
+11重启命令
+```
+docker restart nolanjdc
+```
 ## 特别声明:
 
 * 本仓库涉仅用于测试和学习研究，禁止用于商业用途，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
