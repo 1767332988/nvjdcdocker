@@ -68,7 +68,7 @@ cd  /root/nolanjdc
 ```
 sudo docker run   --name nolanjdc -p 5701:80 -d  -v  "$(pwd)":/app \
 -v /etc/localtime:/etc/localtime:ro \
--it --privileged=true  1767332988/nvjdc:latest
+-it --privileged=true  1767332988/nvjdc:1.4
 ```
 
 10查看 日志 
@@ -80,7 +80,7 @@ docker logs -f nolanjdc
   
 
 出现 NETJDC  started 即可 
-之后在浏览器输入你的ip：5211打开即可
+之后在浏览器输入你的ip：5701打开即可
 
 ## 特别声明:
 
